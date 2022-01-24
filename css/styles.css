@@ -27,6 +27,7 @@ ul {
 }
 /*--style logo--*/
 .link-logo {
+  padding: 32px;
   color: #2196f3;
   text-decoration: none;
   font-family: "Raleway";
@@ -36,6 +37,7 @@ ul {
 }
 .logo-upper {
   color: #000000;
+  margin-right: 93px;
 }
 
 .logo-down {
@@ -58,15 +60,36 @@ body {
   margin: 0 auto;
   outline: 2px solid red;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /*--style index*/
 
 /*--header--*/
 .header {
-  padding: 5px 0 5px 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: #ececec;
 }
+.header-container {
+  display: flex;
+}
+.navigation {
+  align-items: center;
+  display: flex;
+}
+.header-list {
+  display: flex;
+}
+.connect-list {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
 .header-link {
+  padding: 32px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -76,6 +99,8 @@ body {
 }
 .mail-link,
 .tel-link {
+  display: flex;
+  padding: 32px;
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
@@ -102,6 +127,10 @@ body {
 
 /*--hero--*/
 .hero-section {
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
   background-color: var(--background-color);
   font-size: 44px;
   line-height: 1.36;
@@ -111,11 +140,13 @@ body {
   color: var(--hero-text-color);
 }
 .hero-title {
-  padding-top: 200px;
-  padding-bottom: 280px;
+  margin-bottom: 30px;
 }
 .hero-btn {
+  margin-top: 30px;
   font-family: inherit;
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.87;
@@ -147,6 +178,13 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.advantages-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages-list {
+  display: flex;
+}
 .advantages-title {
   font-size: 14px;
   line-height: 1.14;
@@ -168,6 +206,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-links-title-text-color);
 }
+.what-do-list {
+  display: flex;
+}
 /*--our-team-section--*/
 .our-team-title {
   font-size: 36px;
@@ -175,6 +216,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-links-title-text-color);
+}
+.our-team-list {
+  display: flex;
 }
 .team-item-title {
   font-size: 16px;
@@ -192,6 +236,10 @@ body {
 }
 /*--footer--*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--background-color);
 }
 .footer-item-adres,
@@ -218,6 +266,11 @@ body {
 /*--header-done-on-index.html--*/
 
 /*--hero--*/
+.bottons-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .btn-portfolio {
   font-family: inherit;
   cursor: pointer;
