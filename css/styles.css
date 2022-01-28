@@ -27,7 +27,7 @@ ul {
 }
 /*--style logo--*/
 .link-logo {
-  padding: 32px;
+  margin-right: 93px;
   color: #2196f3;
   text-decoration: none;
   font-family: "Raleway";
@@ -37,7 +37,6 @@ ul {
 }
 .logo-upper {
   color: #000000;
-  margin-right: 93px;
 }
 
 .logo-down {
@@ -69,9 +68,7 @@ body {
 
 /*--header--*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -83,11 +80,12 @@ body {
 .header-list {
   display: flex;
 }
-.header-link + .header-link {
+.header-item + .header-item {
   margin-left: 50px;
 }
 .header-link {
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -100,13 +98,15 @@ body {
   display: flex;
   margin-left: auto;
 }
-.mail-link + .tel-link {
-  margin-left: 215px;
+.conect-item-mail {
+  margin-right: 50px;
 }
+
 .mail-link,
 .tel-link {
   display: flex;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
